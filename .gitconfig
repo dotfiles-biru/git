@@ -27,4 +27,7 @@
   lg = log --oneline --graph --decorate
 
 [include]
-    path = ~/.gitconfig.local
+  path = ~/.gitconfig.local
+
+[include]
+  path = ~/sora.gitconfig
