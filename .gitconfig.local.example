@@ -1,0 +1,113 @@
+# ============================================================
+# Git local / machine-specific configuration
+#
+# Copy this file to:
+#   ~/.gitconfig.local
+#
+# DO NOT put real secrets in this example file.
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Identity
+# ------------------------------------------------------------
+
+# Use this if you don't want your identity in the shared
+# gitconfig, or if this machine uses a different identity.
+
+[user]
+    name = YOUR_NAME
+    email = YOUR_EMAIL
+
+
+# ------------------------------------------------------------
+# GPG / SSH commit signing
+# ------------------------------------------------------------
+
+# If you use GPG signing:
+#
+# [user]
+#     signingkey = YOUR_GPG_KEY_ID
+#
+# [commit]
+#     gpgsign = true
+#
+# [gpg]
+#     format = openpgp
+
+
+# If you use SSH signing:
+#
+# [user]
+#     signingkey = ~/.ssh/YOUR_SIGNING_KEY.pub
+#
+# [gpg]
+#     format = ssh
+#
+# [commit]
+#     gpgsign = true
+
+
+# ------------------------------------------------------------
+# Machine-specific SSH configuration
+# ------------------------------------------------------------
+
+# Only use this if you specifically need a custom SSH command.
+#
+# [core]
+#     sshCommand = ssh -i ~/.ssh/YOUR_PRIVATE_KEY
+
+
+# ------------------------------------------------------------
+# Proxy
+# ------------------------------------------------------------
+
+# Only if this machine/network requires a proxy.
+#
+# [http]
+#     proxy = http://YOUR_PROXY_HOST:YOUR_PROXY_PORT
+#
+# [https]
+#     proxy = http://YOUR_PROXY_HOST:YOUR_PROXY_PORT
+
+
+# ------------------------------------------------------------
+# Credential configuration
+# ------------------------------------------------------------
+
+# Example only.
+#
+# Do NOT put actual passwords or tokens here.
+#
+# [credential]
+#     helper = YOUR_CREDENTIAL_HELPER
+
+
+# ------------------------------------------------------------
+# Git server / internal repository configuration
+# ------------------------------------------------------------
+
+# Example for a machine-specific Git server.
+#
+# [url "https://YOUR_INTERNAL_GIT_SERVER/"]
+#     insteadOf = https://github.com/
+
+
+# ------------------------------------------------------------
+# Other machine-specific configuration
+# ------------------------------------------------------------
+
+# Put configuration here only if:
+#
+# 1. It should NOT be shared with other machines
+# 2. It contains personal information
+# 3. It depends on this particular machine/environment
+#
+# Never put:
+# - passwords
+# - API keys
+# - access tokens
+# - private keys
+# - real credentials
+#
+# directly into this example file.
