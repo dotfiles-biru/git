@@ -17,7 +17,8 @@
     diffFilter = delta --color-only
 [delta]
     navigate = true  # use n and N to move between diff sections
-    dark = true      # or light = true, or omit for auto-detection
+  dark = true      # or light = true, or omit for auto-detection
+  paging = never
 [merge]
   conflictStyle = zdiff3
 
@@ -31,3 +32,7 @@
 
 [include]
   path = ~/sora.gitconfig
+[http]
+	version = HTTP/1.1
+	postBuffer = 524288000
+	maxRequestThreads = 2
